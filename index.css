@@ -14,13 +14,16 @@ h1{
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
+    color: #292E47;
+    text-align: center;
 }
 
 h3{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
+    color: #292E47;
 }
 
 h4{
@@ -109,14 +112,57 @@ nav{
 }
 
 .text{
-color: #6B708D;
-font-size: 40px;
-text-align: center;
+    color: #6B708D;
+    font-size: 40px;
+    /*text-align: center;*/
+}
+
+/*#section-1 div:nth-child(2){
+    display: flex;
+    text-align: center;
+    padding: 30px;
+}*/
+
+#section-2 img{
+    display: none;
+}
+
+#div-section-3{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#section-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*margin: 20px 10px;
+    padding: 10px;*/
+
+}
+.section-3 article{
+    padding: 10px;
+    margin: 10px;
+}
+
+#section-3 article img{
+    width: 750px;
+    height: 650px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
 }
 
 
+#section-3 h3{
+    margin-left:0;
+   
+}
 
-
+.section-2 p{
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    }
 
 
 
