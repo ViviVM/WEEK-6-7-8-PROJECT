@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html, body{
+    font-family:roboto;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #292E47;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nav-bar-center ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-center ul li a{
+    text-decoration: none;
+    color: #072AC8;
+    padding: 40px;
+}
+
+.logo {
+    width: 100px;
+    display: none;
+}
+
+
+.background-btn{
+    background-color: #072AC8;
+    color: aliceblue;
+    width: 150px;
+    height: 52px;
+    padding: 15px 36px 15px 36px;
+    
+}
+
+#nav-btn{
+    display: none;
+}
+
+#section-1{
+    position: relative;
+    margin: 20px 30px;
+    padding: 20px;
+}
+
+#image-hero-section{
+    position: relative;
+    display: flex;
+}
+
+#image-hero-section img:nth-child(1){
+    width: 870px;
+    /*margin: 50px;*/
+    padding: 10px;
+}
+
+#image-hero-section img:nth-child(2){
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    top: 20px;
+    left: 40px;
+    width: 400px;
+    height: 600px;
+
+}
+
+#image-hero-section img:nth-child(3){
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    bottom:-80px;
+    right: -4px;
+    width: 400px;
+    height: 450px;   
+}
+
+.text{
+color: #6B708D;
+font-size: 40px;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+@media (min-width:1024px){
+.logo{
+    display: flex;
+}
+
+#nav-btn{
+    display: flex;
+}
+
+nav-bar-center{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+}
