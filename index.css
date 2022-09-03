@@ -6,24 +6,23 @@ html, body{
     margin: 0;
 }
 
-h1{
-    font-size: 60px;
-    font-weight: bold;
+h1, h2, h3{
     color: #292E47;
+    font-weight: bold;
+}
+h1{
+    font-size: 30px;
     text-align: center;
 }
 
 h2 {
-    font-size: 60px;
+    font-size: 25px;
     font-weight: bold;
-    color: #292E47;
     text-align: center;
 }
 
 h3{
-    font-size: 50px;
-    font-weight: bold;
-    color: #292E47;
+    font-size: 22px;
 }
 
 h4{
@@ -34,11 +33,12 @@ h4{
 nav{
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
     margin: 30px 30px;
-    font-size: 40px;
+    font-size: 15px;
     font-weight: bold;
 }
+
+
 
 .nav-bar-center ul{
     list-style: none;
@@ -46,6 +46,7 @@ nav{
     padding: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav-bar-center ul li a{
@@ -73,47 +74,49 @@ nav{
     display: none;
 }
 
-#section-1{
+/*#section-1{
     position: relative;
     margin: 20px 30px;
     padding: 20px;
-}
+}*/
 
 #image-hero-section{
     position: relative;
     display: flex;
+    margin: 20px 30px;
+    padding: 20px;
 }
 
 #image-hero-section img:nth-child(1){
-    width: 870px;
-    /*margin: 50px;*/
-    padding: 10px;
+    width: 320px;
+    /*margin: 50px;
+    padding: 10px;*/
 }
 
 #image-hero-section img:nth-child(2){
     position: absolute;
     display: flex;
-    justify-content: flex-start;
-    top: 20px;
-    left: 40px;
-    width: 400px;
-    height: 600px;
+   /*justify-content: flex-start;*/
+    top: -10px;
+    left: 0px;
+    width: 200px;
+    height: 300px;
 
 }
 
 #image-hero-section img:nth-child(3){
     position: absolute;
     display: flex;
-    justify-content: flex-end;
+    /*justify-content: flex-end;*/
     bottom:-80px;
-    right: -4px;
-    width: 400px;
-    height: 450px;   
+    right: -70px;
+    width: 190px;
+    height: 230px;   
 }
 
 .text{
     color: #6B708D;
-    font-size: 40px;
+    font-size: 18px;
     /*text-align: center;*/
 }
 
@@ -127,43 +130,93 @@ nav{
     display: none;
 }
 
-#div-section-3{
+/*#div-section-3{
     margin: 0;
     padding: 0;
-    text-align: center;
+    
 }
 #section-3{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /*margin: 20px 10px;
-    padding: 10px;*/
+    margin: 20px 10px;
+    padding: 10px;
 
+}*/
+
+.card {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px;
+    border-radius: 20px;
 }
-.section-3 article{
+.card article{
     padding: 10px;
     margin: 10px;
+    
 }
 
-#section-3 article img{
+.card article img{
     width: 750px;
     height: 650px;
-    border-radius: 20px;
-    text-align: center;
-    justify-content: center;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    /*text-align: center;
+    display: flex;
+    text-align: center;*/
 }
 
 
-#section-3 h3{
-    margin-left:0;
+.card h3{
+    margin: 0 10px;
+    padding: 15px;
    
 }
 
-.section-2 p{
-    padding: 0px 20px;
-    margin-bottom: 20px;
+.card p{
+    margin: 0 10px;
+    padding: 15px;
     }
 
+.card a{
+    margin: 0px 10px;
+    padding: 30px 10px;
+    font-family: roboto;
+    font-size: 12px;
+    }
+
+.testimonial-section{
+    position: relative;
+    background-image: url("/project-assets 2/testimonial-section/orbit.png");
+    background-color: #292E47;
+    background-size: cover ;
+    padding: 20px;
+    margin: 30px 0;
+ 
+}
+
+.testimonial-section img{
+    width: 100px;
+    height: 100px;
+}
+
+.testimonial-section h2{
+    color: #F2F4FC;
+    line-height: 30px;
+    text-align: center;
+    margin: 20px 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonial-section img:nth-child(5){
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
 
 
 
@@ -180,6 +233,10 @@ nav-bar-center{
     display: flex;
     justify-content: space-between;
     margin: 0;
+}
+
+h1{
+    font-size: 60px;
 }
 
 }
