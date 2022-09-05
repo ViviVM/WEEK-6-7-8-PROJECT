@@ -52,7 +52,7 @@ nav{
 .nav-bar-center ul li a{
     text-decoration: none;
     color: #072AC8;
-    padding: 40px;
+    padding: 30px;
 }
 
 .logo {
@@ -64,12 +64,15 @@ nav{
 .background-btn{
     background-color: #072AC8;
     color: aliceblue;
+    font-size: 15px;
+    border: none;
+}
+
+.size-btn-sec-1{
     width:150px;
     height: 50px;
     padding: 5px;
     margin: 20px;
-    font-size: 15px;
-    border: none;
 }
 
 .btns{
@@ -151,20 +154,6 @@ nav{
     display: none;
 }
 
-/*#div-section-3{
-    margin: 0;
-    padding: 0;
-    
-}
-#section-3{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 20px 10px;
-    padding: 10px;
-
-}*/
-
 .card {
     background-color: #F2F4FC;
     display: flex;
@@ -214,7 +203,7 @@ nav{
     background-size: contain;
     padding: 20px;
     margin: 30px 0;
-    width: 100%;
+    width: 370px;
     height: 700px;
  
 }
@@ -282,7 +271,57 @@ nav{
     margin-left: 20px;
 }
 
+.section-5{
+    padding: 10px 30px 10px 30px;
+    background-color: #FFC600;
+    margin: 30px 0;
+    width: 370px;
+    height: 300px;
+}
 
+.section-5 h2{
+    margin: 20px 30px 0 30px;
+    padding: 20px 35px 10px 35px;
+}
+
+.section-5 p{
+    text-align: center;
+    margin: 0;
+}
+
+.section-5 input{
+    display: block;
+    margin: 20px 35px 5px 35px;
+    padding: 15px 15px 10px 15px;
+    border: none;
+    text-align: center;
+    width: 250px;
+    height: 25px;
+}
+
+.size-btn-sec-5{
+    display: block;
+    width: 266px;
+    height: 50px;
+    padding: 15px 10px 10px 10px;
+    margin: 15px 50px 10px 50px;
+}
+footer div p{
+    line-height: 25px;
+    margin: 10px 20px 10px 20px;
+}
+
+footer div ul{
+    display: grid;
+    grid-template-columns: 150px 2fr;
+    list-style: none;
+    color: #6B708D;
+    font-size: 15px;
+    padding: 20px;
+    margin: 10px;
+    line-height: 25px;
+    height: 210px;
+}
 
 
 @media (min-width:1024px){
