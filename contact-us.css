@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+    font-family:roboto;
+    padding: 0;
+    margin: 0;
+    background-color: #F2F4FC;
+}
+
+h1, h2, h3{
+    color: #292E47;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+h3{
+    font-size: 18px;
+    
+}
+
+h4{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text_color{
+    color: #6B708D;
+}
+
+.intro_text{
+    font-size: 20px;
+}
+
+.intro_text_medium{
+    font-size: 24px;
+    color: #292E47;
+    margin: 0 10px;
+    padding: 15px;
+}
+
+.body_regular{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.headline_regular{
+    font-size: 17px;
+    margin: 0 10px;
+    padding: 15px;
+}
+
+.text-link{
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 30px 10px;
+}
+
+.form{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_label{
+    margin-bottom: 4px;
+    font-size: 15px;
+    color: #6B708D;
+}
+
+.form_input{
+    background-color: rgba(107, 112, 141, 0.1) ;
+    border: none;
+    height: 30px;
+    padding: 6px;
+    margin-bottom: 12px;
+    width: 75%;
+}
+
+
+.form textarea{
+    background-color:rgba(107, 112, 141, 0.1);
+    width: 75%;
+    border: none;
+}
+
+.contact_us_result_message {
+    visibility: hidden;
+}
+
+.contact_us_result_message_success {
+    visibility: show;
+    background-color: green;
+}
+
+.contact_us_result_message_error {
+    visibility: show;
+    background-color: red;
+}
+
+@media (min-width:1024px){
+    h1{
+        font-size: 60px;
+     }
+    
+    h2{
+         font-size: 50px;
+         text-align: unset;
+         margin: 80px 20px 20px 50px;
+    }
+    
+    h3{
+        font-size: 40px;
+        margin: 80px 20px 20px 50px;
+    }
+    
+    h4{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    
+    .intro_text{
+        font-size: 20px;
+    }
+    
+    .intro_text_medium{
+        font-size: 24px;
+    }
+
+    .logo{
+        display: flex;
+        width: 50%;
+        margin: 20px;
+        padding:20px;
+    }
+
+    .body_regular{
+        font-size: 20px;
+       
+    }
+
+    .form input, textarea{
+        width: 100%;
+    }
+    
+
+}

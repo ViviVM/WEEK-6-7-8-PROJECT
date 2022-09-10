@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+body {
+    font-family: roboto ;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 30px 30px;
+    align-items: center;
+}
+
+.nav-bar-center ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar-center ul li a{
+    text-decoration: none;
+    color: #072AC8;
+    padding: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.nav-bar-center ul li a:hover{
+    text-decoration: none;
+    color: #072AC8;
+    border: 1px solid #D1EDFF;
+    /*color: var(--hospital-green);*/
+    height: 30px;
+}
+
+.logo {
+    display: none;
+}
+
+#nav-btn{
+    display: none;
+}
+
+
+
+
+
+@media (min-width:1024px){
+
+    h1{
+        font-size: 60px;
+     }
+    
+    h2{
+         font-size: 50px;
+    }
+    
+    h3{
+        font-size: 40px;
+    }
+    
+    h4{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    
+    .intro_text{
+        font-size: 20px;
+    }
+    
+    .intro_text_medium{
+        font-size: 24px;
+    }
+    
+    .logo{
+        display: flex;
+        width: 50%;
+        margin: 20px;
+        padding:20px;
+    }
+    
+    
+    nav-bar-center ul{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        padding: 20px;
+        font-size: 18px;
+        align-items: center;  
+    }
+    
+    .nav-bar-center ul li a{
+        padding: 30px;
+        font-size: 17px;
+    }
+        
+    .background-btn{
+        background-color: #072AC8;
+        color: aliceblue;
+        font-size: 15px;
+        border: none;
+        width: 150px;
+        height: 52px;
+    }
+    
+    #nav-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
