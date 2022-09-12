@@ -52,7 +52,6 @@ h4{
     font-size: 20px;
     line-height: 30px;
     margin: 20px;
-    text-align: justify;
 }
 
 .headline_regular{
@@ -75,8 +74,23 @@ h4{
     box-sizing: border-box;
 }
 
+.projects_intro{
+    text-align: center;
+    margin: 50px;
+}
+
+.projects_img-text{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+
+}
+
 #projects_img_orbit{
-    width: 100%;
+    width: 95%;
     height: 444px;
 }
 
@@ -204,6 +218,9 @@ h4{
         max-width: 1440px; 
     }
 
+    .projects_intro{
+        text-align: unset;
+    }
     .projects h3{
         text-align: unset;
         margin: 80px 20px 20px 50px;

@@ -6,8 +6,6 @@ body {
     margin: 0;
 }
 
-
-
 nav{
     display:flex;
     justify-content: space-around;
@@ -51,6 +49,36 @@ nav{
 }
 
 
+footer{
+    padding: 20px;
+    margin: 30px;
+}
+
+.footer_container{
+    width: 100%;
+    margin: auto;
+}
+
+.footer_container_contact_details_left_text{
+    line-height: 25px;
+    padding: 20px 0;
+    font-size: 15px;
+    color: #6B708D;
+  
+}
+
+.footer_container_contact_details_right ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    
+}
+
+.footer_container_contact_details_right ul li a {
+    line-height: 35px;
+    height: 210px;
+    color: #6B708D;
+}
 
 
 
@@ -118,3 +146,18 @@ nav{
         justify-content: center;
         align-items: center;
     }
+
+    .footer_container_contact_details_left_text{
+        font-size: 17px;
+    
+    }
+
+    .footer_container{
+        display: flex;
+        justify-content: space-around
+        }
+    .footer_container_contact_details_right ul {
+        grid-template-columns: repeat(3, 1fr);
+        
+        }
+}
