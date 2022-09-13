@@ -49,6 +49,9 @@ nav{
 }
 
 
+
+
+
 footer{
     padding: 20px;
     margin: 30px;
@@ -80,6 +83,11 @@ footer{
     color: #6B708D;
 }
 
+.footer_container_contact_details_right ul li a:hover {
+    color: #072AC8;
+    /*border-bottom: 1px solid;*/
+    text-decoration: underline;
+}
 
 
 @media (min-width:1024px){
@@ -135,10 +143,15 @@ footer{
     .background-btn{
         background-color: #072AC8;
         color: aliceblue;
-        font-size: 15px;
         border: none;
         width: 150px;
         height: 52px;
+    }
+
+    .background-btn a{
+        color: aliceblue;
+        font-size: 15px;
+        text-decoration: none;
     }
     
     #nav-btn{

@@ -416,7 +416,7 @@ h4{
     font-size: 24px;
 }
 
-.logo{
+/*.logo{
     display: flex;
     width: 50%;
     margin: 20px;
@@ -451,7 +451,7 @@ nav-bar-center ul{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+}*/
 
 .circlepj_hero{
     display: grid;

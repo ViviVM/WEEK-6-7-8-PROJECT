@@ -69,36 +69,45 @@ h4{
 }
 
 .form{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
+    align-content: center;
 }
 
 .form_label{
     margin-bottom: 4px;
     font-size: 15px;
     color: #6B708D;
+
 }
 
 .form_input{
     background-color: rgba(107, 112, 141, 0.1) ;
     border: none;
-    height: 30px;
-    padding: 6px;
+    padding: 15px;
     margin-bottom: 12px;
     width: 75%;
+    font-size: 12px;
+    color: #6B708D;
 }
 
 
 .form textarea{
     background-color:rgba(107, 112, 141, 0.1);
     width: 75%;
+    padding: 15px;
     border: none;
 }
 
+#form_message{
+    font-family: roboto;
+    font-size: 12px;
+    color: #6B708D;
+}
 .contact_us_result_message {
     visibility: hidden;
 }
@@ -111,6 +120,15 @@ h4{
 .contact_us_result_message_error {
     visibility: show;
     background-color: red;
+}
+
+.form-submit{
+    background-color: #072AC8;
+    color: aliceblue;
+    font-size: 15px;
+    border: none;
+    width: 75%;
+    padding: 15px;
 }
 
 @media (min-width:1024px){
@@ -155,9 +173,12 @@ h4{
        
     }
 
-    .form input, textarea{
-        width: 100%;
+    /*.form input{
+        width: 75%;
     }
     
+    textarea{
+        width: 75%;
+    }*/
 
 }
