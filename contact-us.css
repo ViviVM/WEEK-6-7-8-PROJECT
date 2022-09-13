@@ -113,13 +113,23 @@ h4{
 }
 
 .contact_us_result_message_success {
+    font-family: roboto;
+    font-size: 17px;
     visibility: show;
     background-color: green;
+    width: 75%;
+    padding: 15px;
+    color: #F2F4FC;
 }
 
 .contact_us_result_message_error {
+    font-family: roboto;
+    font-size: 17px;
     visibility: show;
     background-color: red;
+    width: 75%;
+    padding: 15px;
+    color: #F2F4FC;
 }
 
 .form-submit{
