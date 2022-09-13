@@ -52,7 +52,7 @@ function submitFunction(event) {
 }
 
 function showSuccess(responseObject) {
-    const message = `The form was submitted successfully. The tracking code is: <b>${responseObject.key}</b>`;
+    const message = 'The form was submitted successfully.';
 
     const resultMessage = document.getElementById('p_result_message');
     resultMessage.innerHTML = message;

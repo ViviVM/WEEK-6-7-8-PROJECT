@@ -490,6 +490,7 @@ nav-bar-center ul{
     display: flex;
     justify-content: space-around;
     margin: 30px 0;
+    filter: grayscale(1);
 }
 
 #client-section img{
