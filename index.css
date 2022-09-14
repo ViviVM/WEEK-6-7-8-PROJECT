@@ -156,8 +156,8 @@ h4{
 #image-hero-section img:nth-child(3){
     position: absolute;
     display: flex;
-    bottom:-4px;
-    right: -46px;
+    bottom:25px;
+    right: -23px;
     width: 60%;
 }
 
