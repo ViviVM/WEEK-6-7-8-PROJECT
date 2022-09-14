@@ -73,13 +73,14 @@ h4{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    /*justify-content: center;*/
-    align-items: center;
+    /*justify-content: center;
+    align-items: center;*/
     align-content: center;
+    flex-wrap: wrap;
 }
 
 .form_label{
-    margin-bottom: 4px;
+    margin: 20px 0 15px 0;
     font-size: 15px;
     color: #6B708D;
 
@@ -117,12 +118,9 @@ h4{
     font-size: 17px;
     visibility: show;
     color: green;
-    width: 75%;
     padding: 15px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
     margin-top: 30px;
+    text-align: center;
 }
 
 .contact_us_result_message_error {
@@ -130,7 +128,6 @@ h4{
     font-size: 17px;
     visibility: show;
     background-color: red;
-    width: 75%;
     padding: 15px;
     color: #F2F4FC;
     align-items: center;

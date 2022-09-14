@@ -26,7 +26,7 @@ nav{
 .nav-bar-center ul li a{
     text-decoration: none;
     color: #072AC8;
-    padding: 30px;
+    padding: 10px 30px;
     font-size: 15px;
     font-weight: bold;
     border-radius: 10px;
@@ -35,7 +35,7 @@ nav{
 .nav-bar-center ul li a:hover{
     text-decoration: none;
     color: #072AC8;
-    border: 1px solid #D1EDFF;
+    border: 1px solid #A2D6F9;
     /*color: var(--hospital-green);*/
     height: 30px;
 }
@@ -47,9 +47,6 @@ nav{
 #nav-btn{
     display: none;
 }
-
-
-
 
 
 footer{
@@ -136,19 +133,19 @@ footer{
         display: flex;
         justify-content: center;
         margin: 20px;
-        padding: 20px;
+        /*padding: 20px;*/
         font-size: 18px;
         align-items: center;  
     }
     
     .nav-bar-center ul li a{
-        padding: 30px;
+        /*padding: 0 30px;*/
         font-size: 17px;
     }
         
     .background-btn{
         background-color: #072AC8;
-        color: aliceblue;
+       /* color: aliceblue;*/
         border: none;
         width: 150px;
         height: 52px;
@@ -158,6 +155,18 @@ footer{
         color: aliceblue;
         font-size: 15px;
         text-decoration: none;
+    }
+
+    .background-btn:hover {
+        background-color: aliceblue;
+        color: #072AC8;
+        border: 2px solid #072AC8;
+    }
+
+    .background-btn a:hover {
+        color: #072AC8;
+        font-weight: bold;
+
     }
     
     #nav-btn{
